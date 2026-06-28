@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: craftedhome
+    env: static
+    buildCommand: npm install && npm run build
+    publishPath: dist/craftedhome-app
